@@ -1,0 +1,26 @@
+{
+  "name": "yakkovid",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@emotion/core": "^10.0.28",
+    "cheerio": "^1.0.0-rc.3",
+    "framer-motion": "^1.10.3",
+    "howler": "^2.1.3",
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "^9.3.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "swr": "^0.2.0"
+  },
+  "prettier": {
+    "semi": false
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export"
+  }
+}
